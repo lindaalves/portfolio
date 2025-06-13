@@ -67,3 +67,76 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+.sobre-mim,
+.contato {
+  margin-bottom: 3rem;
+}
+
+.sobre-mim p,
+.contato p {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 600px;
+  margin: 0.5rem auto 0 auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contato ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.contato li a {
+  color: #3e3eec;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.contato li .fa-github {
+  color: #333;
+}
+
+.contato li .fa-linkedin {
+  color: #0077b5;
+}
+
+.contato li a:hover {
+  border-color: #3e3eec;
+}
+
+.tecnologias {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.tecnologias .fa-html5 {
+  color: #e34f26;
+}
+
+.tecnologias .fa-css3-alt {
+  color: #1572b6;
+}
+
+.tecnologias .fa-js {
+  color: #f7df1e;
+}
+
+.tecnologias .fa-git-alt {
+  color: #f1502f;
+}
+
+.tecnologias i:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
